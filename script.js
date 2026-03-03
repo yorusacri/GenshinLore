@@ -22,6 +22,7 @@ window.goToMain = goToMain;
 document.addEventListener('DOMContentLoaded', function() {
     const navItems = document.querySelectorAll('.nav-item');
     const indicator = document.querySelector('.nav-indicator');
+    const navMenu = document.querySelector('.nav-menu');
 
     function updateIndicator(item) {
         const itemWidth = item.offsetWidth;
@@ -31,10 +32,21 @@ document.addEventListener('DOMContentLoaded', function() {
         indicator.style.left = itemLeft + 'px';
     }
 
+    function resetIndicator() {
+        const activeItem = document.querySelector('.nav-item.active');
+        if (activeItem) {
+            updateIndicator(activeItem);
+        }
+    }
+
     navItems.forEach((item, index) => {
         item.addEventListener('mouseenter', function() {
             updateIndicator(this);
         });
+    });
+
+    navMenu.addEventListener('mouseleave', function() {
+        resetIndicator();
     });
 
     const activeItem = document.querySelector('.nav-item.active');
