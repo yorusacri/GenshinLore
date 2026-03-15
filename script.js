@@ -160,4 +160,14 @@ document.addEventListener('DOMContentLoaded', function() {
             closeModalFunc();
         }
     });
+
+    // TOC toggle functionality
+    const tocToggleBtn = document.getElementById('toc-toggle');
+    if (tocToggleBtn) {
+        tocToggleBtn.addEventListener('click', function() {
+            const tocList = document.getElementById('toc-list');
+            tocList.classList.toggle('collapsed');
+            this.classList.toggle('rotated');
+        });
+    }
 });
