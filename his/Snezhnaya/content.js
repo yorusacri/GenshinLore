@@ -1222,7 +1222,11 @@ ducam  regina  mea  gloria  haud  pluribus  impar
 
                 // 外部链接映射（仅包含外部链接的脚注）
                 const linkMap = {
-                    '1': '<a href="https://www.bilibili.com" target="_blank">哔哩哔哩</a>',
+                    '1': '<a href="https://www.bilibili.com/video/BV1At4y1q7UQ/?spm_id_from=333.1387.upload.video_card.click&vd_source=5521f8f34a1af08d13b6fcf39bf4506b" target="_blank">《原神·提瓦特篇》主线章节预告 PV-「足迹」_哔哩哔哩_bilibili</a>',
+                    '11': '<a href="https://wiki.biligame.com/ys/%E9%A6%96%E9%A1%B5" target="_blank">引用了原神 WIKI_BWIKI_哔哩哔哩的叙述</a>',
+                    '13': '<a href="https://www.bilibili.com/video/BV1mB4y1e7Lh/?spm_id_from=333.1387.upload.video_card.click&vd_source=5521f8f34a1af08d13b6fcf39bf4506b" target="_blank">《原神·提瓦特篇》幕间 PV-「冬夜愚戏」_原神</a>',
+                    '15': '<a href="https://www.bilibili.com/video/BV1tgMzztEnA/?spm_id_from=333.1387.upload.video_card.click&vd_source=5521f8f34a1af08d13b6fcf39bf4506b" target="_blank">《原神》丝柯克角色 PV——「一个结束，一个开始」_游戏热门视频</a>',
+                    '19': '<a href="https://www.bilibili.com/video/BV1xZ421Y7a1/?spm_id_from=333.1387.upload.video_card.click&vd_source=5521f8f34a1af08d13b6fcf39bf4506b" target="_blank">《原神》动画短片——「烬中歌」_哔哩哔哩_bilibili</a>'
                       };
 
                 for (const raw of lines) {
