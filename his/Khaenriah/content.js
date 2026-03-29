@@ -321,6 +321,7 @@
 
 
 ### *旅行者兄妹降临全流程
+· 
 
 > 原初逆转了毁灭，天空之岛焚烧了大地之国。白垩追逐着黄金，赤月对黑日复仇。未来拯救过去，年长者与年幼者同血相残。——这是世间回环的命运。戴因，对你来说，这缕金发又是什么呢？必须杀死的人，还是忏悔的对象？
 > 
@@ -435,8 +436,8 @@
                 // 外部链接映射（仅包含外部链接的脚注）
                 const linkMap = {
                 '1': '<a href="https://www.bilibili.com/video/BV1At4y1q7UQ/?spm_id_from=333.1387.upload.video_card.click&amp;vd_source=5521f8f34a1af08d13b6fcf39bf4506b" target="_blank">《原神·提瓦特篇》主线章节预告PV-「足迹」_哔哩哔哩_bilibili</a>',
-                '4': '<a href="https://www.bilibili.com/video/BV1GPymBwE9K/?spm_id_from=333.1387.upload.video_card.click&amp;vd_source=5521f8f34a1af08d13b6fcf39bf4506b" target="_blank">《原神》剧情PV-「月的倒影」_原神</a>',
-                '5': '<a href="https://www.bilibili.com/video/BV18tGHzoEyW/?spm_id_from=333.337.search-card.all.click&amp;vd_source=5521f8f34a1af08d13b6fcf39bf4506b" target="_blank">《原神·提瓦特篇》幕间PV-「神的局限性」_原神</a>'
+                '6': '<a href="https://www.bilibili.com/video/BV1GPymBwE9K/?spm_id_from=333.1387.upload.video_card.click&amp;vd_source=5521f8f34a1af08d13b6fcf39bf4506b" target="_blank">《原神》剧情PV-「月的倒影」_原神</a>',
+                '7': '<a href="https://www.bilibili.com/video/BV18tGHzoEyW/?spm_id_from=333.337.search-card.all.click&amp;vd_source=5521f8f34a1af08d13b6fcf39bf4506b" target="_blank">《原神·提瓦特篇》幕间PV-「神的局限性」_原神</a>'
                 };
 
                 for (const raw of lines) {

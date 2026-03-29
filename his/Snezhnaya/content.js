@@ -967,7 +967,7 @@ ducam  regina  mea  gloria  haud  pluribus  impar
 
 ·神之心获取情况：女士背叛自由抢到风，女士用终结契约的契约换得岩，博士失去切片的永恒换到雷，博士亵渎智慧换到草，仆人用正义帮助消灭水神的正义换到水
 
-·愚人众各席位表
+### 愚人众各席位表
 |席位|代号|原名|介绍|
 |---|---|---|---|
 |统括官|「丑角」<br/>皮耶罗|艾弗提尔维特|曾是坎瑞亚的宫廷法师，现负责统筹愚人众的工作<br/>我是名为『丑角』的皮耶罗。请听我说：骄傲的愚人同士们，心怀怒火与永恒的寒冬吧。既然我们彼此都见识过世界定理的荒谬与冷漠，那就一同戴上嗤笑世界的面具，去改写天理吧。|
@@ -1427,7 +1427,7 @@ ducam  regina  mea  gloria  haud  pluribus  impar
                 let i = 0;
 
                 // 标题
-                let titleText = '须弥';
+                let titleText = '至冬';
                 if ((contentLines[i] || '').startsWith('# ')) {
                     titleText = (contentLines[i] || '').slice(2).trim();
                     i++;

@@ -1611,7 +1611,7 @@ CL-02：很好。你几乎让我感到惋惜了，第八席，也许已经让我
 > 1. 《原神·提瓦特篇》主线章节预告PV-「足迹」_哔哩哔哩_bilibili
 > 2. 燃愿玛瑙
 > 3. 支离轮光
-> 4. 编者注：该部分的图片来源未知，如果作者看到，请与我联系
+> 4. 该部分的图片引用自言墟子
 > 5. 镌光的遗记·其一
 > 6. 昔时裁决的圣座（审议之庭-至高领主共识评议会记录）
 > 7. 镌光的遗记·其三
@@ -1830,6 +1830,13 @@ CL-02：很好。你几乎让我感到惋惜了，第八席，也许已经让我
                 const table = document.createElement('table');
                 table.className = 'lightrelam-table';
 
+                // 检查是否为"纳塔共四代英雄总结"表格（通过表头特征识别）
+                const isNatlanHeroTable = headerCells.some(cell => 
+                    cell.includes('时间') && cell.includes('部族')
+                ) || headerCells.some(cell => 
+                    cell.includes('一代') && cell.includes('讨伐')
+                );
+
                 // 检查表头是否有内容
                 const hasHeaderContent = headerCells.some(cell => !isBlankCell(cell));
 
@@ -1860,9 +1867,10 @@ CL-02：很好。你几乎让我感到惋惜了，第八席，也许已经让我
                         let html = normalizeInline(mergedHeader[c].text || '');
                         html = injectFootnoteTooltips(html, footnoteMap);
                         th.innerHTML = html || '';
-                        if (mergedHeader[c].text.includes('尤潘基')) {
+                        // 如果是纳塔英雄总结表格，所有内容居中
+                        if (isNatlanHeroTable) {
                             th.style.textAlign = 'center';
-                        }
+                        } 
                         if (c === 0) {
                             th.style.minWidth = '12em';  //防止表格第一列太窄导致显示不下内容
                         }
@@ -1881,7 +1889,10 @@ CL-02：很好。你几乎让我感到惋惜了，第八席，也许已经让我
                         if (mergedBody[r][c].skip) continue;
 
                         const td = document.createElement('td');
-                        if (c === 1 || c === 3) td.classList.add('text-left');
+                        // 如果不是纳塔英雄总结表格，才应用原有的左对齐样式
+                        if (!isNatlanHeroTable && (c === 1 || c === 3)) {
+                            td.classList.add('text-left');
+                        }
                         const cs = mergedBody[r][c].colspan;
                         if (cs > 1) td.colSpan = cs;
                         if (c === 0 && rowspan[r] > 1) td.rowSpan = rowspan[r];
@@ -1889,9 +1900,10 @@ CL-02：很好。你几乎让我感到惋惜了，第八席，也许已经让我
                         let html = normalizeInline(mergedBody[r][c].text);
                         html = injectFootnoteTooltips(html, footnoteMap);
                         td.innerHTML = html || '';
-                        if (mergedBody[r][c].text.includes('尤潘基')) {
+                        // 如果是纳塔英雄总结表格，所有内容居中
+                        if (isNatlanHeroTable) {
                             td.style.textAlign = 'center';
-                        }
+                        } 
                         tr.appendChild(td);
                     }
                     tbody.appendChild(tr);
