@@ -147,6 +147,53 @@
     }
 }
 
+/* 公告弹窗专用样式 */
+.notice-modal .notice-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border-left: 3px solid #D3BC8E;
+}
+
+.notice-modal .notice-title {
+    font-family: 'Genshin', serif;
+    font-size: 18px;
+    color: #4d4f53;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.notice-modal .notice-meta {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #8d8f93;
+}
+
+.notice-modal .notice-date,
+.notice-modal .notice-author {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.notice-modal .notice-description {
+    font-family: 'Common', sans-serif;
+    font-size: 14px;
+    color: #4d4f53;
+    line-height: 1.8;
+    white-space: pre-wrap;
+}
+
+.notice-modal .notice-divider {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #D3BC8E, transparent);
+    margin: 25px 0;
+}
+
 * {
     margin: 0;
     padding: 0;
