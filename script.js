@@ -200,7 +200,7 @@ function initMobileMenu() {
 
     // 监听窗口大小变化，自动收起菜单
     window.addEventListener('resize', function() {
-        if (window.innerWidth > 768) {
+        if (window.innerWidth > 1012) {
             navMenu.classList.remove('active');
         }
     });
