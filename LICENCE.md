@@ -1,36 +1,64 @@
-# Repository License & Copyright / 仓库许可与版权声明
+# 仓库许可与版权声明
 
-本仓库（GenshinLore 项目）采用**多重许可协议（Multi-License）**。鉴于静态网页项目中代码、设计与内容的交织特性，本协议通过“功能属性”而非“目录路径”来界定适用范围：
+本仓库（GenshinLore 项目）采用**多重许可协议**。考虑到静态网页项目中代码、设计与内容相互交织的特点，本协议以“功能属性”而非“文件目录”来界定各项许可的适用范围。
 
-## 1. 逻辑与功能实现 (Logic & Functionality)
-- **协议：** GNU General Public License v3.0 (GPL-3.0)
-- **定义：** 包含本项目中所有未编译或已编译的源代码，包括但不限于 JavaScript 逻辑脚本、HTML 结构标签、自动化工作流（GitHub Actions）以及各类构建工具配置。
-- **权利说明：** 只要涉及程序逻辑的复用、修改或分发，必须遵循 GPLv3 的开源义务。
+## 1. 逻辑与功能实现
+- **适用协议：** GNU 通用公共许可证第三版 (GPLv3)
+- **定义范围：** 本项目中的所有源代码，无论是否经过编译，包括但不限于 JavaScript 逻辑脚本、HTML 结构标签、自动化工作流 (GitHub Actions) 以及各类构建工具配置文件。
+- **授权说明：** 凡涉及上述程序逻辑的复制、修改或分发，均须遵守 GPLv3 的开源义务。
 
-## 2. 视觉呈现与交互样式 (Visuals & Interaction)
-- **协议：** CC BY-NC-SA 4.0 (知识共享 署名-非商业性使用-相同方式共享 4.0 国际)
-- **定义：** 指本网站的视觉方案、配色方案、交互动效方案、CSS 样式表文件及其定义的 UI 布局。
-- **权利说明：** 仅限非商业性使用。基于本 UI 方案的修改版必须以相同协议开源，不得将其作为私有商业模板。
+## 2. 视觉呈现与交互样式
+- **适用协议：** 知识共享 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)
+- **定义范围：** 本网站整体的视觉风格、配色方案、交互动效方案、CSS 样式文件及其所定义的界面布局方案。
+- **授权说明：** 仅限于非商业性使用。基于本 UI 方案的任何修改版本必须以相同协议开源，不得将其作为私有商业模板出售或闭源使用。
 
-## 3. 文献汇编内容与受权素材 (Content & Assets)
-- **协议：** CC BY-NC-ND 4.0 (知识共享 署名-非商业性使用-禁止演绎 4.0 国际) + 官方版权保留
-- **定义：** 指本网站展示的所有文字叙述、图表排版等。
+## 3. 文献汇编内容与授权素材
+- **适用协议：** 知识共享 署名-非商业性使用-禁止演绎 4.0 国际 (CC BY-NC-ND 4.0) + 官方版权保留
+- **定义范围：** 本网站所展示的所有文字叙述、数据图表及其版面编排等。
 - **版权声明：**
- - 本项目涉及的所有《原神》游戏原文、角色、美术素材版权均归**上海米哈游网络科技股份有限公司 (miHoYo)** 所有。
-  - 手册原作者对游戏文本进行的独创性汇编、校对、注释形成的作品受法律保护。
-- **特别限制：** 严禁任何形式的商业倒卖。引用时需保持内容完整性，禁止进行可能导致原意歪曲的二次修改或混编。
+  - 本项目涉及的《原神》游戏原文、角色形象、美术素材等版权均归**上海米哈游网络科技股份有限公司 (miHoYo)** 所有。
+  - 本汇编作品作者对游戏文本所进行的独创性整理、校对、注释及编排所形成的智力成果，依法享有著作权保护。
+- **特别限制：** 严禁任何形式的商业倒卖。引用时须保持内容完整，禁止进行可能导致原意歪曲的二次修改、删节或不当混编。
 
 ---
 
-## 常见问题处理 (Edge Cases)
+## 常见问题处理
+**问：如果一个 HTML 文件同时包含结构代码与文字内容，该如何适用？**  
+答：根据本协议，该文件中的 HTML 标签（结构层）受 GPLv3 约束，而其中所包裹的文字内容受 CC BY-NC-ND 4.0 约束。这意味着你可以自由参考其页面结构，但不得直接复制或篡改其中受保护的文献内容。
 
-**Q：如果一个 HTML 文件里既有结构又有内容怎么办？**  
-A：根据本协议，该文件中的 HTML 标签（结构）受 GPLv3 约束，而其中包裹的文字内容受 CC BY-NC-ND 4.0 约束。这意味着你可以自由参考其页面结构，但不得直接搬运或篡改其中的文献内容。
+---
+# Repository License & Copyright
+
+This repository (GenshinLore project) is released under a **multi-license model**. Given the intertwined nature of code, design, and content in a static website project, this license defines the scope of each grant based on “functional nature” rather than directory paths.
+
+## 1. Logic & Functionality
+- **License:** GNU General Public License v3.0 (GPLv3)
+- **Scope:** All source code in this project, whether compiled or not, including but not limited to JavaScript logic scripts, HTML structural markup, automation workflows (GitHub Actions), and various build tool configurations.
+- **Terms:** Any reproduction, modification, or distribution of the above program logic must comply with the open-source obligations of GPLv3.
+
+## 2. Visuals & Interaction
+- **License:** Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+- **Scope:** The overall visual style, color scheme, interactive effect design, CSS stylesheets, and the UI layout scheme they define.
+- **Terms:** Non-commercial use only. Any modified version based on this UI scheme must be released under the same license. It may not be turned into a private commercial template or used in any closed-source manner.
+
+## 3. Compiled Content & Licensed Assets
+- **License:** Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) + Official Rights Reservation
+- **Scope:** All textual narratives, data charts, and typographical arrangements displayed on this website.
+- **Copyright Notice:**
+  - All copyrights to in-game texts, characters, and artistic assets of *Genshin Impact* referenced in this project belong to **Shanghai miHoYo Network Technology Co., Ltd. (miHoYo)**.
+  - The original compilation, verification, annotation, and arrangement of the game texts by the author of this project form a protected intellectual work under applicable law.
+- **Special Restrictions:** Any form of commercial resale is strictly prohibited. When quoting, the integrity of the content must be maintained. Secondary modification, abridgment, or remixing that may distort the original meaning is forbidden.
 
 ---
 
-## 附录
-1.  GNU 通用公共许可证 第三版 (GPLv3) 原文内容
+## Edge Cases
+**Q: How does this apply to an HTML file that contains both structural code and textual content?**  
+A: Under this license, the HTML tags (structure) within that file are governed by GPLv3, while the textual content enclosed by those tags is governed by CC BY-NC-ND 4.0. This means you may freely reference the page structure, but you may not directly copy or alter the protected literary content.
+
+---
+
+## 附录/Appendix
+1.  GNU 通用公共许可证 第三版 (GPLv3) 原文内容/GNU General Public License v3.0 (GPLv3) Full Text
 
 ```
                     GNU GENERAL PUBLIC LICENSE
@@ -708,7 +736,7 @@ the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
 ```
-2. 知识共享 署名-非商业性使用-禁止演绎 4.0 国际 (CC BY-NC-ND 4.0) 许可协议原文内容
+2. 知识共享 署名-非商业性使用-禁止演绎 4.0 国际 (CC BY-NC-ND 4.0) 许可协议原文内容/Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Full Text
 ```
 Attribution-NonCommercial-NoDerivatives 4.0 International
 
@@ -1113,7 +1141,7 @@ public licenses.
 
 Creative Commons may be contacted at creativecommons.org.
 ```
-3. 知识共享 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 许可协议原文内容
+3. 知识共享 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 许可协议原文内容/Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Full Text
 ```
 Attribution-NonCommercial-ShareAlike 4.0 International
 
