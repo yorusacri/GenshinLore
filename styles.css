@@ -585,6 +585,7 @@ body {
     max-width: 100%;
     vertical-align: top;
     white-space: nowrap;
+    text-align: left !important;
 }
 
 .has-footnote sup {
