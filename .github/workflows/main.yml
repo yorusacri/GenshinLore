@@ -1,7 +1,5 @@
 name: Update File Tree in README
 on:
-  push:
-    branches: [ main ]
   workflow_dispatch:
 permissions:
   contents: write
