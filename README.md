@@ -41,7 +41,7 @@
 | `**文字**` | 红色文字 |
 | `<sup>数字</sup>` | 注释角标 |
 | `> ` | 引用文字 |
-| `> ` | 引用文字 |
+| `>> ` | 两部分内容之间插入的文字 |
 | `> 数字` | 注释详细内容，数字需与正文中的 `<sup></sup>` 对应。如果存在链接，需要在`linkMap`里添加，最终显示的内容为在`linkMap`字符串中添加的内容 |
 | `<br>` | 换行，表格中也可以使用 |
 | ` <br />` | 表格中的空单元格（注意 `/` 前有一个空格） |
@@ -59,6 +59,7 @@
 | genshinlore.pages.dev | Dennis114514 | Cloudflare Pages 默认域名，国内部分地区无法访问 |
 | genshinlore.github.io | Dennis114514 | 部署在 GitHub Pages 上的镜像站，每 24 小时同步一次 |
 |genshinlore.hut.ao|Masterain98|由[Masterain98](https://github.com/Masterain98)在 Netlify部署的镜像站，国内访问体验较好，感谢他对本网站的支持|
+|genshinlore.peacefuly.top|MCheping8108|参考[Issue#12](https://github.com/Dennis114514/GenshinLore/issues/12)|
 
 ## 项目结构
 ```
