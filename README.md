@@ -60,6 +60,7 @@
 | genshinlore.github.io | Dennis114514 | 部署在 GitHub Pages 上的镜像站，每 24 小时同步一次 |
 |genshinlore.hut.ao|Masterain98|由[Masterain98](https://github.com/Masterain98)在 Netlify部署的镜像站，国内访问体验较好，感谢他对本网站的支持|
 |genshinlore.peacefuly.top|MCheping8108|参考[Issue#12](https://github.com/Dennis114514/GenshinLore/issues/12)|
+|genshinlore.makotowu.cn|makotowu|参考[PullRequest#13](https://github.com/Dennis114514/GenshinLore/pull/13)，注意该镜像站为Vitepress测试站点，其内容**与主站有较大的不同**，仅用于学习交流|
 
 ## 项目结构
 ```
